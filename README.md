@@ -42,4 +42,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - The application must be responsive, should display correctly both on desktop and mobile.
 - The application should work fine on the latest version of Google Chrome.
 - The application should be production-ready (bug-free, look as close to the design as possible)
-# react-clean-architecture
+
