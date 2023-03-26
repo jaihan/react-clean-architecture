@@ -1,0 +1,19 @@
+.card {
+  font-size: large;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card_img {
+  width: 100%;
+}
+
+.card_body {
+  padding: 2px 16px;
+  background-color: darkblue;
+  color: white;
+}
+
+

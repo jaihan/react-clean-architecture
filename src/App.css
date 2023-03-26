@@ -1,0 +1,23 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  
+  flex-direction: column;
+ 
+}
+
+.app-header{
+  background-color: #00008b;
+  padding: 20px 100px;
+}
+
+.app-body {
+  flex: 1;
+  margin: 40px 100px;
+}
+
+.app-footer {
+  background-color: #00008b;
+  padding: 120px;
+}
+

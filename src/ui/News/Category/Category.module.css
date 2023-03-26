@@ -1,0 +1,63 @@
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.col_25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col_50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col_25, .col_50 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.card {
+  margin: 20px;
+}
+
+.card_image{
+  width: 100%;
+}
+
+.card_body {
+  padding: 2px 16px;
+  background-color: darkblue;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+

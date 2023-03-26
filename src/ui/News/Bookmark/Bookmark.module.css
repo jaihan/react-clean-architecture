@@ -1,0 +1,13 @@
+.loading {
+  position: fixed;
+  top: calc(40% - 40px);
+  left: calc(50% - 40px);
+}
+.search {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 35px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
