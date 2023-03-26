@@ -37,9 +37,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Features & requirements
 
-- You must start a project from scratch, choose any technology you prefer. For the front-end, use only the latest version of React.
-- No UI library is allowed, you have to write all CSS by yourself. Only CSS, SCSS and CSS-in-JS are allowed.
-- The application must be responsive, should display correctly both on desktop and mobile.
-- The application should work fine on the latest version of Google Chrome.
-- The application should be production-ready (bug-free, look as close to the design as possible)
-
+- use only the latest version of React.
+- No UI library. Only use CSS, SCSS and CSS-in-JS 
+- Responsive for both on desktop and mobile.
